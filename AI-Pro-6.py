@@ -10,7 +10,7 @@ app = Flask(__name__)
 # ================= CONFIG =================
 
 BOT_TOKEN = os.environ.get("8784956309:AAEyz3Ms6QiSykjhTxiwcxdH_LbyOXvySdk")
-FOOTBALL_API_KEY = os.environ.get("FOOTBALL_API_KEY")
+FOOTBALL_API_KEY = os.environ.get("36ec15df1f0c41bfac9bcecd8eef4087")
 
 if not BOT_TOKEN:
     raise ValueError("BOT_TOKEN not set in environment variables")
@@ -136,3 +136,4 @@ def webhook():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
